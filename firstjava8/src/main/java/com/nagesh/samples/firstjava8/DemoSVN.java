@@ -2,9 +2,11 @@ package com.nagesh.samples.firstjava8;
 
 import java.util.Arrays;
 import java.util.List;
+import java.util.concurrent.ConcurrentHashMap;
 
 public class DemoSVN {
 
+	@SuppressWarnings("rawtypes")
 	public static void main(String[] args) {
 
 		List<Integer> l1 = Arrays.asList(2, 4, 3, 7, 9);
@@ -16,6 +18,8 @@ public class DemoSVN {
 		System.out.println("hello ");
 		
 		System.out.println("hello2 ");
+		
+		ConcurrentHashMap<String,String> map = new ConcurrentHashMap<String, String>();
 	}
 
 }
