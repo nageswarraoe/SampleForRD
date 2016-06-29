@@ -20,6 +20,9 @@ public class DemoSVN {
 		System.out.println("hello2 ");
 		
 		ConcurrentHashMap<String,String> map = new ConcurrentHashMap<String, String>();
+		
+		map.put("name", "nagesh");
+		
 	}
 
 }
