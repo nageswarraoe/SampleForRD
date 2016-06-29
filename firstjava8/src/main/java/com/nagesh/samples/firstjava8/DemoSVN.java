@@ -14,6 +14,8 @@ public class DemoSVN {
 		System.out.println("hello end of program");
 		
 		System.out.println("hello ");
+		
+		System.out.println("hello2 ");
 	}
 
 }
